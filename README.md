@@ -80,12 +80,23 @@ The project evolved through several implementation stages rather than starting w
 
 Earlier technologies are retained as project history; they are not represented here as a single live production stack.
 
-## Case-study documents
+## Recruiter review path
 
-- [Business case and solution approach](docs/CASE_STUDY.md)
-- [Business analysis artifacts and decision model](docs/BUSINESS_ANALYSIS.md)
-- [Sanitized architecture](docs/ARCHITECTURE.md)
-- [Validation and acceptance approach](docs/VALIDATION.md)
+For a short review of the project:
+
+1. [Business case and solution approach](docs/CASE_STUDY.md)
+2. [Business analysis artifacts and decision model](docs/BUSINESS_ANALYSIS.md)
+3. [Sanitized architecture and process maps](docs/ARCHITECTURE.md)
+4. [Validation, UAT-style scenarios, and defect triage](docs/VALIDATION.md)
+5. [Sanitized SQL example](examples/governed_view_example.sql)
+6. [Sanitized Python validation example](examples/validate_identity_example.py)
+
+## Code examples
+
+The `examples/` directory contains deliberately small, sanitized examples that demonstrate technical literacy without copying private production-style implementation into the public portfolio.
+
+- `governed_view_example.sql` demonstrates an approved read-only view pattern and a duplicate-key validation query.
+- `validate_identity_example.py` demonstrates deterministic NDC11 format and uniqueness validation using synthetic test values.
 
 ## Portfolio boundary
 
